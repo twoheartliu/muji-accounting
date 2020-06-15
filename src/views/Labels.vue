@@ -1,13 +1,18 @@
 <template>
-  <div>Labels</div>
+  <div>
+    labels
+    <Nav />
+  </div>
 </template>
 
-<script lang="ts">
+<script>
+  import Nav from '@/components/Nav';
   export default {
-    name: 'Labels'
+    name: 'Labels',
+    components: {Nav}
   };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 
 </style>
