@@ -1,4 +1,4 @@
-# erxin-accounting
+# muji-accounting
 
 ## Project setup
 ```
