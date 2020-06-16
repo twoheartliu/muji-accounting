@@ -1,6 +1,10 @@
 <template>
-  <div>money
-    <Nav/>
+  <div class="nav-wrapper">
+    <div class="content">
+      <Layout>
+        <p>money</p>
+      </Layout>
+    </div>
   </div>
 </template>
 
