@@ -22,6 +22,8 @@
 </script>
 
 <style scoped lang="scss">
+  @import "~@/assets/style/helper.scss";
+
   nav {
     display: flex;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.85);
@@ -43,7 +45,7 @@
     }
 
     > .item.selected {
-      color: #D3A971;
+      color: $color-highlight;
     }
   }
 
